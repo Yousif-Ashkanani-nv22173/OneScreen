@@ -20,8 +20,8 @@ body {
 img {
   width: 100%; /* Set the width to 100% of the container */
   height: 100%; /* Set the height to 100% of the container */
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
+
 
 
 .gallery img {
