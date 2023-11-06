@@ -17,17 +17,12 @@ body {
   border-bottom: 4px solid #ff5900;
 }
 
-.gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 20px 10px;
+img {
+  width: 100%; /* Set the width to 100% of the container */
+  height: 100%; /* Set the height to 100% of the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
+
 
 .gallery img {
   width: 100%;
