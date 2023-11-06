@@ -17,15 +17,18 @@ body {
   border-bottom: 4px solid #ff5900;
 }
 .gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center; /* Center the content horizontally */
+  height: 100vh; /* Set the gallery height to the viewport height (full screen) or adjust as needed */
 }
 
 .gallery img {
-  width: 100%; /* Set the width to 100% of the container */
   max-width: 350px; /* Limit the maximum width */
   height: auto; /* Let the height adjust proportionally */
   border-radius: 10px;
-  align: center;
 }
 
 .text {
