@@ -22,6 +22,7 @@ body {
   max-width: 350px; /* Limit the maximum width */
   height: auto; /* Let the height adjust proportionally */
   border-radius: 10px;
+  align: center;
 }
 
 .text {
