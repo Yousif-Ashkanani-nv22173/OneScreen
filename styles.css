@@ -16,6 +16,9 @@ body {
   color: #fff;
   border-bottom: 4px solid #ff5900;
 }
+.gallery {
+  text-align: center; /* Center the content horizontally */
+}
 
 .gallery img {
   width: 100%; /* Set the width to 100% of the container */
