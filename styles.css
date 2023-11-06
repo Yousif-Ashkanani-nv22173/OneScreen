@@ -16,7 +16,7 @@ body {
   color: #fff;
   border-bottom: 4px solid #ff5900;
 }
-.gallery {
+.pic {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@ body {
   height: 100vh; /* Set the gallery height to the viewport height (full screen) or adjust as needed */
 }
 
-.gallery img {
+.pic img {
   max-width: 350px; /* Limit the maximum width */
   height: auto; /* Let the height adjust proportionally */
   border-radius: 10px;
